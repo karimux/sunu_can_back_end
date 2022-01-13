@@ -1,0 +1,24 @@
+{
+  "name": "sunu_can",
+  "version": "1.0.0",
+  "description": "sunu_can api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "swagger-autogen": "node swagger.js"
+  },
+  "author": "karimux",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "swagger": "^0.7.5",
+    "swagger-autogen": "^2.18.8",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
